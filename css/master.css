@@ -607,9 +607,13 @@ float: left;
   box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .form_contact textarea{
+  width: 92%;
+  height: 150px;
+  display:block;
   border-radius: 5px;
   border:1px solid #f4f4f4;
   background-color: #fff;
+  margin-bottom: 8px;
   box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .form_contact input[type=submit]{
@@ -905,6 +909,10 @@ margin-top: 11px;
 }
 .blog_comment .form_contact input[type=text]{
   width: 79%;
+}
+.blog_comment .form_contact textarea{
+width: 79%;
+height: 150px; 
 }
 .blog_comment .form_contact input[type=submit]{
   width: 30%;
